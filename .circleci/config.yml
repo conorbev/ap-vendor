@@ -1,5 +1,13 @@
 # Warning: automatically generated file
 # Please edit .circleci/config.yml.j2, then run bin/generate_circleci_config.py
+---
+# https://circleci.com/docs/2.0/configuration-cookbook/?section=examples-and-guides#execute-specific-workflows-or-steps-based-on-which-files-are-modified
+
+setup: true
+
+orbs:
+  path-filtering: circleci/path-filtering@0.0.2
+
 version: 2.1
 workflows:
   version: 2.1
