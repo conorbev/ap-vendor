@@ -47,7 +47,7 @@ workflows:
             - scan-snyk-alertmanager
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-auth-sidecar:
           type: approval
@@ -85,7 +85,7 @@ workflows:
             - scan-snyk-auth-sidecar
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-awsesproxy:
           type: approval
@@ -123,7 +123,7 @@ workflows:
             - scan-snyk-awsesproxy
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-blackbox-exporter:
           type: approval
@@ -161,7 +161,7 @@ workflows:
             - scan-snyk-blackbox-exporter
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-configmap-reloader:
           type: approval
@@ -199,7 +199,7 @@ workflows:
             - scan-snyk-configmap-reloader
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-curator:
           type: approval
@@ -237,7 +237,7 @@ workflows:
             - scan-snyk-curator
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-dind-golang:
           type: approval
@@ -275,7 +275,7 @@ workflows:
             - scan-snyk-dind-golang
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-elasticsearch:
           type: approval
@@ -313,7 +313,7 @@ workflows:
             - scan-snyk-elasticsearch
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-elasticsearch-exporter:
           type: approval
@@ -351,7 +351,7 @@ workflows:
             - scan-snyk-elasticsearch-exporter
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-fluentd:
           type: approval
@@ -389,7 +389,7 @@ workflows:
             - scan-snyk-fluentd
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-git-daemon:
           type: approval
@@ -427,7 +427,7 @@ workflows:
             - scan-snyk-git-daemon
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-git-sync:
           type: approval
@@ -465,7 +465,7 @@ workflows:
             - scan-snyk-git-sync
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-grafana:
           type: approval
@@ -503,7 +503,7 @@ workflows:
             - scan-snyk-grafana
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-keda:
           type: approval
@@ -541,7 +541,7 @@ workflows:
             - scan-snyk-keda
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-keda-metrics-apiserver:
           type: approval
@@ -579,7 +579,7 @@ workflows:
             - scan-snyk-keda-metrics-apiserver
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-kibana:
           type: approval
@@ -617,7 +617,7 @@ workflows:
             - scan-snyk-kibana
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-kube-state:
           type: approval
@@ -655,7 +655,7 @@ workflows:
             - scan-snyk-kube-state
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-kubed:
           type: approval
@@ -693,7 +693,7 @@ workflows:
             - scan-snyk-kubed
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-nats-exporter:
           type: approval
@@ -731,7 +731,7 @@ workflows:
             - scan-snyk-nats-exporter
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-nats-server:
           type: approval
@@ -769,7 +769,7 @@ workflows:
             - scan-snyk-nats-server
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-nats-streaming:
           type: approval
@@ -807,7 +807,7 @@ workflows:
             - scan-snyk-nats-streaming
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-nginx:
           type: approval
@@ -845,7 +845,7 @@ workflows:
             - scan-snyk-nginx
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-nginx-es:
           type: approval
@@ -883,7 +883,7 @@ workflows:
             - scan-snyk-nginx-es
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-node-exporter:
           type: approval
@@ -921,7 +921,7 @@ workflows:
             - scan-snyk-node-exporter
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-openresty:
           type: approval
@@ -959,7 +959,7 @@ workflows:
             - scan-snyk-openresty
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-pgbouncer:
           type: approval
@@ -997,7 +997,7 @@ workflows:
             - scan-snyk-pgbouncer
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-pgbouncer-exporter:
           type: approval
@@ -1035,7 +1035,7 @@ workflows:
             - scan-snyk-pgbouncer-exporter
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-postgres-exporter:
           type: approval
@@ -1073,7 +1073,7 @@ workflows:
             - scan-snyk-postgres-exporter
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-postgresql:
           type: approval
@@ -1111,7 +1111,7 @@ workflows:
             - scan-snyk-postgresql
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-prometheus:
           type: approval
@@ -1149,7 +1149,7 @@ workflows:
             - scan-snyk-prometheus
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-redis:
           type: approval
@@ -1187,7 +1187,7 @@ workflows:
             - scan-snyk-redis
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-registry:
           type: approval
@@ -1225,7 +1225,7 @@ workflows:
             - scan-snyk-registry
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-statsd-exporter:
           type: approval
@@ -1263,7 +1263,7 @@ workflows:
             - scan-snyk-statsd-exporter
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
       - approve-vector:
           type: approval
@@ -1301,7 +1301,7 @@ workflows:
             - scan-snyk-vector
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 
 jobs:
   run_pre_commit:

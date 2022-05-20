@@ -47,7 +47,7 @@ workflows:
             - scan-snyk-{{ directory }}
           filters:
             branches:
-              only: main
+              only: feature/AP-4472
 {% endfor %}
 jobs:
   run_pre_commit:
