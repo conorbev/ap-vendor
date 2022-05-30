@@ -27,6 +27,8 @@ ENV POSTGRESQL_MAX_CONNECTIONS 200
 
 USER root
 
+RUN apt update -y && apt upgrade -y && rm -rf /var/lib/apt/lists/*
+
 RUN addgroup postgres --gid 1001 && useradd -s /sbin/nologin --gid 1001 --uid 1001 postgres
 
 RUN chown -R 1001:1001 /opt/bitnami
